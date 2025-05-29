@@ -244,4 +244,5 @@ hi('Ignore',           {                                             ctermfg = '
 hi('@function.python',                   { fg = '#aaa0fa' }) -- support.function.std.rust/meta.function-call.php
 hi('@function.builtin.python',           { fg = '#efb080' }) -- support.function
 hi('@function.method.python',            { fg = '#aaa0fa' }) -- support.function
+hi('@type.builtin.python',               { link = 'Keyword' }) -- support.function
 --stylua: ignore end
