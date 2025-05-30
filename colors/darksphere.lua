@@ -241,8 +241,10 @@ hi('Type',             { fg = '#efb080', bold = true,                ctermfg = '
 hi('Underlined',       { fg = '#228df2', underline = true,           ctermfg = 'blue', cterm = { underline = true } }) -- textLink.foreground
 hi('Ignore',           {                                             ctermfg = 'white' })
 
-hi('@function.python',                   { fg = '#aaa0fa' }) -- support.function.std.rust/meta.function-call.php
-hi('@function.builtin.python',           { fg = '#efb080' }) -- support.function
-hi('@function.method.python',            { fg = '#aaa0fa' }) -- support.function
-hi('@type.builtin.python',               { link = 'Keyword' }) -- support.function
+hi('@function.python',                   { fg = '#aaa0fa' })
+hi('@function.call.python',              { fg = '#aaa0fa' })
+hi('@function.builtin.python',           { fg = '#efb080' })
+hi('@function.method.python',            { fg = '#aaa0fa' })
+hi('@function.method.call.python',       { fg = '#aaa0fa' })
+hi('@type.builtin.python',               { link = 'Keyword' })
 --stylua: ignore end
